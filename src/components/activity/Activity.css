@@ -1,0 +1,125 @@
+.activity-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    width: 394px;
+    height: 100;
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+}
+.activity-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+  
+.activity-title h1 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.activity-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+.activity-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 1px solid #e9ecef;
+    margin: 5px;
+    width: 350px;
+    height: 100px;
+    text-align: left;
+}
+.activity-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.activity-content-top{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left:20px;
+    padding: 0px;
+}
+.creator{
+    font-weight: 500;
+}
+.activity{
+    color: #BC006D;
+    font-weight: 500;
+}
+.activity-content-bottom{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin-left:20px;
+    padding: 0px;
+}
+@media (max-width: 768px) {
+    .activity-container {
+      width: 100%;
+      border-radius: 0; 
+      border: none; 
+    }
+  
+    .activity-title {
+      padding: 10px;
+      padding-left: 20px;
+    }
+  
+    .activity-title h1 {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .activity-details {
+      padding: 10px;
+    }
+  
+    .activity-card {
+      width: 100%;
+      border-radius: 0; 
+      border-bottom: 1px solid #e9ecef; 
+      margin: 0;
+    }
+  
+    .activity-profile {
+      margin-right: 10px; 
+    }
+  
+    .activity-content {
+      margin-left: 0;
+    }
+  
+    .activity-content-top,
+    .activity-content-bottom {
+      margin-left: 0;
+      margin-top: 5px; 
+    }
+  
+    .creator,
+    .activity {
+      font-weight: 500;
+    }
+  }
+  
