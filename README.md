@@ -13,6 +13,7 @@ The “To-Do Dashboard” is a simple dashboard application built using React.js
 - Mobile Responsiveness
 
 ![Developed window](https://github.com/Himosh/todo-app-himosh/blob/dev/src/assets/dashboard%20window%201.png)
+
 ![Developed window](https://github.com/Himosh/todo-app-himosh/blob/dev/src/assets/dashboard%20window%202.png)
 
 
@@ -29,9 +30,10 @@ To set up and run the project locally, follow these steps:
 
 ```bash
 # Clone the repository:
-git clone 
+git clone https://github.com/Himosh/todo-app-himosh.git
+
 # Navigate to the project directory:
-cd <project-directory>
+cd todo-app-himosh
 
 # Install dependencies:
 npm install
