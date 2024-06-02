@@ -16,7 +16,7 @@ function Sidebar() {
       <div className={`mobile-menu-icon ${isSidebarVisible ? 'hidden' : ''}`} onClick={toggleSidebar}>
         <img src={Navigation} alt="Menu" />
       </div>
-      <div className={`sidebar-container ${isSidebarVisible ? 'visible' : ''}`}>
+      <div className={`sidebar-container ${isSidebarVisible ? 'visible' : ''}`} role="complementary">
         <div className="sidebar-title">
           <h1>Acmy Solutions</h1>
           <div className={`close-icon ${isSidebarVisible ? 'visible' : ''}`} onClick={toggleSidebar}>

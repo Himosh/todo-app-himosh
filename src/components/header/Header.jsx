@@ -6,7 +6,7 @@ import Chevrondown from '../../assets/Chevron-down.svg'
 
 function Header() {
   return (
-    <div className="header-conatiner">
+    <div className="header-conatiner" role="banner">
         <div className="header-content-left">
             <h3>Dashboard</h3>
         </div>
