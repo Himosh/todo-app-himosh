@@ -1,6 +1,6 @@
 # To-Do Dashboard
 
-The “To-Do Dashboard” is a simple dashboard application built using React.js to track to-do tasks. This project is part of an assignment aimed at assessing coding skills through the implementation of a basic to-do tracking application.
+The “To-Do Dashboard” is a simple dashboard application built using React.js to track to-do tasks.
 
 # Features
 
